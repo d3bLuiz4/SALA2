@@ -1,0 +1,22 @@
+nota_1= int(input('Digite sua primeira nota:'))
+
+nota_2= int(input('Digite sua segunda nota:'))
+
+média= (nota_1+nota_2)/2
+print(média)
+
+if média >=6:
+    print('Você foi aprovado<3')
+else:
+    print('Você não foi aprovado:(')
+        
+nota_rec= int(input('Digite a nota da prova de rec:'))
+
+média+nota_rec
+
+if média+nota_rec >=5:
+    print(média+nota_rec)
+    print('Você foi aprovado!>w<')
+else:
+    print(média+nota_rec)
+    print('Você não foi aprovado._.')
