@@ -1,0 +1,10 @@
+def ordenar_números(a,b,c):
+    valores=[a,b,c]
+    valores.sort()
+    return valores
+
+a=float(input('Digite o primeriro número:'))
+b=float(input('Digite um segundo número:'))
+c=float(input('Digite um terceiro número:'))
+
+print('Os valores em ordem crescente são:',ordenar_números)
