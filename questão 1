@@ -1,0 +1,13 @@
+nota_1= int(input('Digite sua primeira nota:'))
+
+nota_2= int(input('Digite sua segunda nota:'))
+
+nota_3= int(input('Digite sua terceira nota:'))
+
+média= (nota_1+nota_2+nota_3)/3
+
+if média >=6:
+
+    print('Você foi aprovado^^')
+else:
+    print('Você foi reprovado:(')
