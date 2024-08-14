@@ -7,7 +7,6 @@ nota_3= int(input('Digite sua terceira nota:'))
 média= (nota_1+nota_2+nota_3)/3
 
 if média >=6:
-
-    print('Você foi aprovado^^')
+    print('Você foi aprovado^^' , {média})
 else:
-    print('Você foi reprovado:(')
+    print('Você foi reprovado:(' , {média})
